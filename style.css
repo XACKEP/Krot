@@ -1,0 +1,22 @@
+.main{
+	display: flex;
+	margin: 100px 100px;
+}
+.hole{
+	background-image: url(dirt.svg);
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	background-size: 100% 100%;
+	z-index: 2;
+}
+html{
+	background-image: url(ban.gif);
+	background-size: 1%;
+	box-sizing: border-box;
+}
+.krot{
+	position: absolute;
+	width: 150px;
+	z-index: 1;
+}
